@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.mycompany.xmljsonconverter.MainController">
+
+    <top>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <Label text="Mode:"/>
+            <ComboBox fx:id="modeCombo" prefWidth="180"/>
+
+            <Label text="Conversion:"/>
+            <ComboBox fx:id="conversionCombo" prefWidth="180"/>
+
+            <Button text="New" onAction="#clearAll"/>
+            <Button text="Load file" onAction="#loadFile"/>
+            <Button text="Convert" onAction="#convert"/>
+            <Button text="Save" onAction="#saveFile"/>
+
+        </HBox>
+    </top>
+
+    <center>
+        <SplitPane dividerPositions="0.5">
+            <VBox spacing="6" style="-fx-padding: 10;">
+                <Label text="Input (XML/JSON)"/>
+                <TextArea fx:id="inputArea" prefHeight="500"/>
+            </VBox>
+
+            <VBox spacing="6" style="-fx-padding: 10;">
+                <Label text="Output (XML/JSON)"/>
+                <TextArea fx:id="outputArea" prefHeight="500" editable="false"/>
+            </VBox>
+        </SplitPane>
+    </center>
+
+</BorderPane>

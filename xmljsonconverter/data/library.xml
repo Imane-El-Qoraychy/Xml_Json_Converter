@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book>
+    <title>Clean Code</title>
+    <author>Robert C. Martin</author>
+    <edition year="2008" language="English">First Edition</edition>
+  </book>
+
+  <book>
+    <title>Effective Java</title>
+    <author>Joshua Bloch</author>
+    <edition year="2018" language="English">Third Edition</edition>
+  </book>
+
+  <book>
+    <title>Design Patterns</title>
+    <author>Erich Gamma</author>
+    <edition year="1994" language="English">Classic Edition</edition>
+  </book>
+</library>
+

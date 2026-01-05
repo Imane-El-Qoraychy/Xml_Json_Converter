@@ -1,0 +1,34 @@
+{
+  "library": {
+    "book": [
+      {
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "edition": {
+          "year": 2008,
+          "language": "English",
+          "value": "First Edition"
+        }
+      },
+      {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "edition": {
+          "year": 2018,
+          "language": "English",
+          "value": "Third Edition"
+        }
+      },
+      {
+        "title": "Design Patterns",
+        "author": "Erich Gamma",
+        "edition": {
+          "year": 1994,
+          "language": "English",
+          "value": "Classic Edition"
+        }
+      }
+    ]
+  }
+}
+
