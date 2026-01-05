@@ -82,8 +82,7 @@ The application allows:
 ##  Demo Video
 
 The demo video is available directly on GitHub.
-️ **See the video in the _Releases_ section of this repository**
-or in Drive : 
+️ **See the video in the _Releases_ section of this repository or on Google Drive :** 
 https://drive.google.com/file/d/1b8JMJEJjvm7hQ_i_uYV2dzMSiqBWklho/view?usp=sharing
 
 ---
